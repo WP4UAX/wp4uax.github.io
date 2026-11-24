@@ -165,4 +165,6 @@ script.src='https://retrieve.pskreporter.info/query?receiverCallsign=FK78&modify
 try{const c=JSON.parse(localStorage.getItem('wp4uax-hf-fk78'));if(c&&Array.isArray(c.rows)&&Number.isFinite(c.updated)){rows=c.rows;updated=c.updated;cap=!!c.cap;}}catch{}
 $('hfBand').onchange=render;$('hfRefresh').onclick=fetchReports;render();fetchReports();setInterval(()=>{if(!document.hidden)fetchReports();},300000);setInterval(()=>{if(!busy)render()},60000);
 })();
-</script></body></html>
+</script>
+ <a href="https://info.flagcounter.com/bavY"><img src="https://s05.flagcounter.com/count2/bavY/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+ </body></html>
